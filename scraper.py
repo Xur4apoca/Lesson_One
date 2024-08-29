@@ -16,7 +16,7 @@ def check_driver_path(path):
     return True
 
 # Atualize o caminho do driver para o local correto
-driver_path = 'C:/Users/HR/Documents/edgedriver/msedgedriver.exe'
+driver_path = 'C'
 if not check_driver_path(driver_path):
     raise ValueError(f"O caminho do driver não é válido ou o arquivo não é executável: {driver_path}")
 
